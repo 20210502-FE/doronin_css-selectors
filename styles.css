@@ -50,6 +50,10 @@ body {
     cursor: pointer;
 }
 
+.content__list-item:hover {
+  color: #A3A0B5;
+}
+
 .content__list-item:nth-child(odd) {
 background-color: #88839E;
 padding: 30px 10px;
