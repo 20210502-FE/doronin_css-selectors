@@ -27,19 +27,27 @@ body {
 
 .content {
     color: white;
-    font-size: 25px;
     font-family: Trebuchet MS, Trebuchet, Arial, sans-serif;
     width: 50%;
     padding: 10px;
     margin: 30px auto;
 }
 
+.content__list-label {
+    font-size: 25px;
+}
+
 .content__list {
     list-style-type: none;
 }
 
-.content__list-item-span {
+.content__list-label .content__list-label_small {
     font-size: 15px;
+    padding: 0 5px;
+}
+
+.content__list-item .content__list-label {
+    cursor: pointer;
 }
 
 .content__list-item:nth-child(odd) {
@@ -49,7 +57,7 @@ padding: 30px 10px;
 
 .content__list-item:nth-child(even) {
     background-color: #625E77;
-    padding: 20px 10px;
+    padding: 30px 10px;
 }
 
 .content__list-input:checked + .content__list-label {
